@@ -184,3 +184,13 @@ variable "build_environment_variables" {
   default     = {}
   description = "A set of key/value environment variable pairs available during build time."
 }
+
+variable "docker_registry" {
+  type = string
+  default = null
+}
+
+variable "docker_repository" {
+  type = string
+  default = null
+}
